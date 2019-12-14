@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto Slab', serif;
+    background: rgb(70, 72, 80);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.container {
+    width: 80%;
+    margin: 4% auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 1% 0;
+    color: white;
+    background: #75754a;
+    text-align: center;
+    font-size: 3rem;
+}
+
+form {
+    margin: 4% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+/* card styles */
+/* .card {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 8% auto;
+    padding: 4%;
+    background: #c9c9b7;
+    border-radius: 5px;
+} */
+
+.cardDiv {
+    display:flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.name {
+    text-align: left;
+}
+
+.quote{
+    display: flex;
+    text-align: left;
+    font-size: 1.7rem;
+    /* margin: 6% 0 6% 0; */
+    padding: 4%;
+}
+
+.season {
+    text-align: left;
+}
+
+.episode {
+    text-align: left;
+}
+
+.leftDiv {
+    width: 50%;
+}
+
+.quoteDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDiv {
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.imgDiv img {
+    width: 100%;
+}
+
+
+
+button {
+    padding: 1% 2%;
+    border: none;
+    /* border-radius: 5px; */
+    background: #75754a;
+    color: white;
+}
+
